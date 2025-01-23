@@ -7,7 +7,7 @@
   <title>Ejercicio de selectores</title>
 </head>
 <style type="text/css">
-  #titulo{
+  #titulo {
     color: rgb(5, 144, 125)
   }
 
@@ -28,7 +28,7 @@
     color: red;
   }
 
-  p em{
+  p em {
     color: blue;
   }
 
@@ -36,10 +36,26 @@
     color: blueviolet;
   }
 
+  caption {
+    color: rgb(7, 58, 208);
+  }
 
+  #adicional p {
+    color: yellowgreen;
+  }
 
+  #especial {
+    color: rgb(174, 33, 255);
+  }
 
+  #adicional a {
+    color: rgb(11, 91, 1)
+  }
 
+  thead th.especial, tfoot th { 
+    color: orange;
+    border: 1px solid black; }
+    
 </style>
 
 <body>
@@ -63,6 +79,7 @@
 
   <table summary="Descripción de la tabla y su contenido">
     <caption>Título de la tabla</caption>
+
     <thead>
       <tr>
         <th scope="col"></th>
